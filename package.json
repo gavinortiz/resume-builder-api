@@ -1,0 +1,24 @@
+{
+  "name": "gro-resume-builder-api",
+  "version": "1.0.0",
+  "description": "API used for my resume builder application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": {
+    "name": "Gavin R Ortiz",
+    "email": "gavin.r.ortiz@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.8",
+    "morgan": "^1.8.2"
+  }
+}
